@@ -1,4 +1,4 @@
-<%= form_for(@post) do |f| %>
+<%= simple_form_for(@post) do |f| %>
         <div class="form-group">
           <div id='editor'>
                   <textarea name="post[content]" id="n" class="form-control" rows="20" v-model='input' debounce='50'></textarea>
