@@ -1,0 +1,33 @@
+
+
+<div class="col-xs-12">
+<table class="type07">
+    <thead>
+    <tr>
+        <th scope="cols"></th>
+        <th scope="cols">選挙名</th>
+        <th scope="cols">URL</th>
+        <th scope="cols">Xpath</th>
+        <th scope="cols">取得方法1</th>
+        <th scope="cols">取得方法2</th>
+        <th scope="cols">取得方法3</th>
+    </tr>
+    </thead>
+    <tbody>
+        
+    <% @bots.each do |bot| %>
+
+        <tr>
+            <th scope="row"><%= bot.id %></th>
+    		<td><%= bot.name  %></td>
+    		<td><%= bot.url.truncate(20) %></td>
+    		<td><%= bot.xpath %></td>
+            <td><%= link_to "crawl", bots_crawl_path(id: bot.id) %></td>
+            <td><%= link_to "文字条件", bots_if_crawl_path(id: bot.id) %></td>
+            <td><%= link_to "抜粋", bots_slice_crawl_path(id: bot.id) %></td>
+        </tr>
+        
+    <% end %>
+    </tbody>
+</table>
+</div>

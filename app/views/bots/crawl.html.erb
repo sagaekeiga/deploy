@@ -1,0 +1,18 @@
+<div class="form align">
+    <div class="jumbotron font">
+        取得に成功しました！
+    </div>
+    
+    取得した内容
+    <div class="jumbotron padding height">
+        <%= @crawl.encode("UTF-8") %>
+    </div>
+    
+    プレビュー
+    <div class="jumbotron">
+        <%= simple_format("<table>" + @crawl.encode("UTF-8") + "</table>") %>
+    </div>
+    
+    プレビュー2
+        <%= "<table>#{@crawl.encode("UTF-8")}</table>".html_safe %>
+</div>

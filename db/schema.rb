@@ -11,7 +11,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170508130926) do
+ActiveRecord::Schema.define(version: 20170510144537) do
+
+  create_table "bots", force: :cascade do |t|
+    t.text     "name"
+    t.text     "url"
+    t.string   "xpath"
+    t.text     "word1"
+    t.text     "word2"
+    t.text     "word3"
+    t.text     "upper"
+    t.text     "lower"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "posts", force: :cascade do |t|
     t.text     "content"

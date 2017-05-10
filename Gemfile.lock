@@ -224,6 +224,7 @@ DEPENDENCIES
   github-linguist
   jbuilder (~> 2.0)
   jquery-rails
+  nokogiri
   qiita-markdown
   rails (= 4.2.5)
   sass-rails (~> 5.0)

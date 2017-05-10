@@ -1,0 +1,44 @@
+<div class="form">
+
+  <%= form_for :bot, url: bots_path do |f| %>
+    
+    <p>
+      <%= f.label :name, "選挙名" %><br>
+      <%= f.text_field :name, class: 'form-control input-sm', style: "width:500px;", :placeholder => "選挙名"%>
+    </p>
+   
+    <p>
+      <%= f.label :url, "URL" %><br>
+      <%= f.text_area :url, class: 'form-control input-sm', style: "width:500px;", size: "10", :placeholder => "URL"%>
+    </p>
+    
+    <p>
+      <%= f.label :xpath, "Xpath" %><br>
+      <%= f.text_area :xpath, class: 'form-control input-sm', style: "width:500px;", size: "10", :placeholder => "xpathで抽出する際に必要になります"%>
+    </p>
+    
+    <p>
+      <%= f.label :word1, "条件ワード1" %><br>
+      <%= f.text_area :word1, class: 'form-control input-sm', style: "width:500px;", size: "10", :placeholder => "文字条件抽出に必要になります" %>
+    </p>
+    
+    <p>
+      <%= f.label :word2, "条件ワード2" %><br>
+      <%= f.text_area :word2, class: 'form-control input-sm', style: "width:500px;", size: "10", :placeholder => "文字条件抽出に必要になります" %>
+    </p>
+    
+    <p>
+      <%= f.label :word3, "条件ワード3" %><br>
+      <%= f.text_area :word3, class: 'form-control input-sm', style: "width:500px;", size: "10", :placeholder => "文字条件抽出に必要になります" %>
+    </p>
+    
+    <p>
+      <%= f.label :upper, "上段" %><br>
+      <%= f.text_area :upper, class: 'form-control input-sm', style: "width:500px;", size: "10", :placeholder => "抜粋抽出に必要になります"%>
+    </p>
+    
+    <p>
+      <%= f.submit "登録", class: 'btn btn-primary' %>
+    </p>
+  <% end %>
+</div>
