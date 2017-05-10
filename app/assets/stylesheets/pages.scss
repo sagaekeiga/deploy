@@ -3,3 +3,41 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+
+.page_index_over {
+    width: 900px;
+    height: 800px;
+}
+
+.page_index_title1 {
+    width: 90%;
+    height: 50px;
+	padding-bottom: .5em;
+	border-bottom: 2px solid #ccc;
+	font-size: 30px;
+	color: #cccccc;
+}
+
+.page_index_left_content1 {
+ width: 400px;
+ margin-left: 45px;
+ min-height: 120px;
+ height: auto !important;
+ height: 50px;
+}
+
+.page_index_right_content1 {
+ width: 406px;
+ min-height: 120px;
+ height: auto !important;
+ height: 50px;
+}
+
+.page_index_left_content1_main {
+  width: 100%;
+  padding: 2px;
+  height: 40px;
+  font-size: 20px;
+  line-height: 40px;
+}

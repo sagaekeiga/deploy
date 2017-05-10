@@ -1,0 +1,142 @@
+//--------------------header
+.header_over {
+ height: 150px;
+ background-color: #e1e0a5;
+}
+
+.header_middle {
+ width: 70%;
+ font-size: 80px;
+ text-align: center;
+ line-height: 150px;
+ color: white;
+}
+
+.b_bottom {
+	padding: .5em;
+	border-bottom: 2px solid #ccc;
+	letter-spacing: 2px;
+}
+
+.padding {
+  padding: .5em;
+}
+
+.b_100 {
+  height: 100px;
+}
+
+.b_200 {
+  height: 200px;
+}
+.di_inline_t {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.b_10 {
+  height: 10px;
+}
+
+.b_50 {
+  height: 50px;
+}
+
+.width_400 {
+  width: 700px;
+}
+
+.width_500 {
+  width: 500px;
+}
+
+a {
+text-decoration: none;
+}
+
+.flo_right {
+  float: right;
+}
+
+.bo_rad_3 {
+  border-radius: 3px;
+}
+
+.b_50 {
+  height: 50px;
+}
+
+.pad_3 {
+  margin: 3px;
+}
+
+.o_border {
+	padding: .5em;
+	border: 3px double #ccc;
+}
+
+.gray {
+  background-color: #e6e6e6;
+}
+
+.fs_20 {
+  font-size: 20px;
+  margin-top: 30px;
+  color: #9fcb63;
+}
+
+.gold {
+  background-color: 	#ffd700;
+  width: 100%;
+  height: 100%;
+}
+
+.silver {
+  background-color: 	#c0c0c0;
+  width: 100%;
+  height: 100%;
+}
+
+.darkgold {
+  background-color: 	#b8860b;
+  width: 100%;
+  height: 100%;
+}	
+
+
+//--------------------------header
+
+.acti_more {
+  color: black;
+  display:block;
+  height: 20px;
+  text-align:center;
+  border:1px solid #EEE;
+  border-radius: 3px;
+  font-size: 10px;
+  line-height: 20px;
+}
+
+
+//--------------------タグ
+
+.label_red {
+  background-color: rgba( 255, 0, 0, 0.5 );
+}
+
+.wi_100 {
+  width: 100px;
+}
+
+.wi_200 {
+  width: 200px;
+}
+
+.h_10 {
+  height: 10px;
+}
+
+.f_size_15 {
+    font-size: 15px;
+    color: black;
+}
